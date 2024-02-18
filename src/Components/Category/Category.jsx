@@ -6,7 +6,7 @@ function Category() {
   return (
     <section className={classes.category__container}>
       {categoryInfos.map((infos) => (
-        <CategoryCard key={infos.imgLink} datay={infos} />
+        <CategoryCard key={infos.imgLink} data={infos} />
       ))}
     </section>
   );
